@@ -23,6 +23,25 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-badwords:before {
+	content: "\e049";
+}
+.icon-sticker:before {
+	content: "\e05c";
+}
+.icon-gif:before {
+	content: "\e011";
+}
+.icon-bot:before {
+	content: "\e021";
+}
+.icon-black-white-list:before {
+	content: "\e006";
+}
+.icon-links:before {
+	content: "\e052";
+}
+
 .icon-user-female:before {
 	content: "\e106";
 }

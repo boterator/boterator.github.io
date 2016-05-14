@@ -2526,13 +2526,16 @@ nav .info-header .btn {
 }
 
 .dark-bg .slogan {
-    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);
-    -webkit-text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);
+    /*text-shadow: 0px 1px 1px rgba(0, 0, 0, 1.0);*/
+    /*-webkit-text-shadow: 0px 1px 1px rgba(0, 0, 0, 1.0);*/
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    -webkit-text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .intro-block .slogan p {
     margin: 50px 0 0 0;
-    opacity: 0.7;
+    opacity: 1.0;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #big-video-wrap video,
